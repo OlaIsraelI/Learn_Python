@@ -11,7 +11,7 @@ developer = f"""
 
 ============================================
 
-Hi, {name} welcome to the developer's environment. You are an aspiring {programming_language} developer, and your dream job is {job}, and you plan to study for {hours_long} hours.
+Hi, {name} welcome to the developer's environment. You are an aspiring {programming_language} developer, and your dream job is {job}, and you are ready to study for {hours_long} hours. Let's build!
 
 
 ============================================
