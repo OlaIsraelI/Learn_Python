@@ -11,4 +11,4 @@ num2 = float(input("Type another number: "))
 true_division, floor_division = true_floor_division(num1, num2)
 
 print(f"The floor division is {floor_division}")
-print(f"The true division is {true_division}")
+print(f"The true division is {true_division:.2f}") #The :.2 prints the result in 2 decimal places
