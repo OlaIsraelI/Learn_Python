@@ -1,13 +1,16 @@
 #Converting string to int and float
 
-def convert_string():
-  print(float(int(price)))
-  print(int(price))
-  print(price)
+def convert_string(user_input):
+  as_float = float(user_input)
 
-  return price
+  as_int = int(as_float)
 
+  return as_float, as_int
 
-price = input("Enter a price in whole number: ")
+user_input = input("Enter a price in whole number: ").strip()
 
-print(convert_string())
+as_float, as_int = convert_string(user_input)
+
+print(f"Original string {user_input}")
+print(f"As Integer: {as_int}")
+print(f"As float: {as_float}")
