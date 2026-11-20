@@ -1,4 +1,4 @@
-#Introduction to variables, data-types, and bsaic I/O
+#Introduction to variables, data-types, and basic I/O
 
 item_name = "Laptop"
 quantity = 50
